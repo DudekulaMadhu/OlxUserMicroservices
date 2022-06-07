@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('checkout') {
             steps {
-                git 'https://github.com/mohammadazeez963/javaProject'
+                git 'https://github.com/DudekulaMadhu/OlxUserMicroservices'
             }
         }
         stage('compile') {
